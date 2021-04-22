@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(152, 178, 34);
+    width: 350px;
+    min-height: 250px;
+    box-shadow: 2px 2px 18px white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+        background-color: black;
+        border-radius: 50%;
+        border: 10px solid #fff ;
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translate(-50%);
+        overflow: hidden;
+
+}
+.image img {
+    width: 100%;
+}
+
+.card a {
+    text-decoration: none;
+    color: floralwhite;
+    font-style: italic;
+
+}
+
+.card button {
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: floralwhite;
+    color: black;
+    transition: 0.9s;
+}
+
+.card button:hover {
+    transform: scale(1.1);
+}
+
+.write-up {
+    transition: 0.8s;
+    height: 0;
+    overflow: hidden;
+}
+body{
+    background-image: url(https://cdn.geekwire.com/wp-content/uploads/2019/07/bigstock-Real-Python-Code-Developing-Sc-217216555-768x513.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: bottom
+}
